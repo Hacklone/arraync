@@ -1,7 +1,7 @@
 {
   "name": "arraync",
-  "version": "1.0.0",
-  "description": "Async Array methods polyfill",
+  "version": "1.0.1",
+  "description": "Async Array methods polyfills",
   "main": "index.js",
   "jsnext:main": "esm/index.js",
   "typings": "index.d.ts",
@@ -15,7 +15,9 @@
   "keywords": [
     "async",
     "array",
-    "arraync"
+    "arraync",
+    "methods",
+    "polyfill"
   ],
   "author": "Hacklone <toakak@gmail.com>",
   "license": "MIT",

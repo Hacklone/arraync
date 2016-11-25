@@ -1,6 +1,6 @@
 # arraync
 
-Async Array methods
+Async Array methods polyfills
 
 ## Install
 > npm install --save arraync
@@ -10,14 +10,7 @@ Async Array methods
 import 'arraync';
 ```
 
-## Usage
-```javascript
-const userIds = [1, 2, 3, 4];
-
-const users = userIds.mapAsync(async (userId) => await this.usersService.getUserByUserIdAsync(userId));
-```
-
-## Features
+## Features and Usage
 - forEachAsync<T>(callback: Func<T, Promise<any>>, thisArg?: any): Promise<void>;
 ```javascript
 await myArray.forEachAsync(async (item) => {
