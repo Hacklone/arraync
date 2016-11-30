@@ -2,7 +2,7 @@
 
 Async Array methods polyfills
 
-> Note: These the methods introduced by this library are not part of any ECMAScript standard or proposal  
+> Note: The methods introduced by this library are not part of any ECMAScript standard or proposal  
 
 ## Install
 > npm install --save arraync
